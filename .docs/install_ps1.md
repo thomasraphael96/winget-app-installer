@@ -72,4 +72,5 @@ foreach ($app in $apps) {
 ## Considerações Finais
 - Se executado em um terminal do PowerShell com privilégios de Administrador, o script realiza a instalação de aplicativos de forma silenciosa, o que significa que os aplicativos serão instalados sem interação do usuário.
 - Se executado em um terminal do PowerShell sem privilégios de Administrador, o instalador solicitará confirmação do administrador.
+- Se o aplicativo já tiver instalado, o winget tentará atualizá-lo para uma versão mais recente.
 - Caso ocorra algum erro na instalação de um aplicativo ou o aplicativo já esteja instalado, o script imprime uma mensagem de erro no console.

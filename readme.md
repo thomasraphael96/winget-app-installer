@@ -61,4 +61,3 @@ Flameshot.Flameshot
 
 ## Observações
 - Certifique-se de que todos os IDs em app_list.txt estejam corretos e sejam válidos no repositório do winget.
-- O script não realiza atualizações de aplicativos já instalados; ele apenas instala os aplicativos que ainda não estão no sistema.
