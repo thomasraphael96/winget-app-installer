@@ -4,7 +4,7 @@ Todas as mudanças significativas para este projeto serão documentadas neste ar
 
 ## [1.0.0] - 2024-11-12
 ### Added
-- Adicionada pasta `.github`:
+- Adicionada pasta `.github` para arquivos que facilitam o gerenciamento do repositório no GitHub:
     - Adicionada documentação `CONTRIBUTING.md` com diretrizes para contribuidores.
 - Adicionada pasta `.docs` para documentação de arquivos de configuração e scripts.
     - Adicionada documentação `config_json.md` com detalhes sobre o uso e a estrutura do arquivo de configuração JSON.
@@ -14,6 +14,7 @@ Todas as mudanças significativas para este projeto serão documentadas neste ar
 
 ## [1.0.0] - 2024-11-11
 ### Added
-- Adicionada script `install.ps1` para instalação automática de softwares com IDs do `winget`.
-- Adicionado arquivo `config.json` para armazenar o caminho e nome do arquivo de IDs.
+- Adicionada pasta `app` para arquivos principais:
+    - Adicionada script `install.ps1` para instalação automática de softwares com IDs do `winget`.
+    - Adicionado arquivo `config.json` para armazenar o caminho e nome do arquivo de IDs.
 - Adicionada documentação `README.md` com uma visão geral do projeto.
